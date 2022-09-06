@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:weightSum="10"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="653dp"
+        android:layout_weight="8"
+        android:alignmentMode="alignMargins"
+        android:columnCount="2"
+        android:columnOrderPreserved="false"
+        android:padding="14dp"
+        android:rowCount="3"
+        tools:ignore="InefficientWeight">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="136dp"
+                android:layout_height="186dp"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="15dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                tools:ignore="UseCompoundDrawables,UselessLeaf">
+
+
+                <ImageView
+                    android:id="@+id/chocochip5"
+                    android:layout_width="match_parent"
+                    android:layout_height="84dp"
+                    android:layout_gravity="center_horizontal"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/chocochipcookies" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:fontFamily="serif-monospace"
+                    android:text="Chocochip"
+                    android:textAlignment="center"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:fontFamily="serif-monospace"
+                    android:text="Rs.39"
+                    android:textAlignment="center"
+                    android:textColor="#4AD35D"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="130dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="15dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                tools:ignore="UseCompoundDrawables,UselessLeaf">
+
+
+                <ImageView
+                    android:id="@+id/gingercookie5"
+                    android:layout_width="match_parent"
+                    android:layout_height="84dp"
+                    android:layout_gravity="center_horizontal"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/gingercookie" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:fontFamily="serif-monospace"
+                    android:text="Gingercookie"
+                    android:textAlignment="center"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:fontFamily="serif-monospace"
+                    android:text="Rs.49"
+                    android:textAlignment="center"
+                    android:textColor="#4AD35D"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="131dp"
+                android:layout_height="175dp"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="15dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                tools:ignore="UseCompoundDrawables,UselessLeaf">
+
+
+                <ImageView
+                    android:id="@+id/molassescookie5"
+                    android:layout_width="match_parent"
+                    android:layout_height="84dp"
+                    android:layout_gravity="center_horizontal"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/molassescookie" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:fontFamily="serif-monospace"
+                    android:text="Molassescookie"
+                    android:textAlignment="center"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:fontFamily="serif-monospace"
+                    android:text="Rs.59"
+                    android:textAlignment="center"
+                    android:textColor="#4AD35D"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="124dp"
+                android:layout_height="181dp"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="15dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                tools:ignore="UseCompoundDrawables,UselessLeaf">
+
+
+                <ImageView
+                    android:id="@+id/spritzcookie5"
+                    android:layout_width="match_parent"
+                    android:layout_height="84dp"
+                    android:layout_gravity="center_horizontal"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/spritzcookies" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:fontFamily="serif-monospace"
+                    android:text="Spritzcookie"
+                    android:textAlignment="center"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:fontFamily="serif-monospace"
+                    android:text="Rs.69"
+                    android:textAlignment="center"
+                    android:textColor="#4AD35D"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="133dp"
+                android:layout_height="182dp"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="15dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                tools:ignore="UseCompoundDrawables,UselessLeaf">
+
+
+                <ImageView
+                    android:id="@+id/thumbprintcookie5"
+                    android:layout_width="match_parent"
+                    android:layout_height="84dp"
+                    android:layout_gravity="center_horizontal"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/thumbprintcookies" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:fontFamily="serif-monospace"
+                    android:text="Thumbprint"
+                    android:textAlignment="center"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:fontFamily="serif-monospace"
+                    android:text="Rs.30"
+                    android:textAlignment="center"
+                    android:textColor="#4AD35D"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="124dp"
+                android:layout_height="172dp"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="15dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                tools:ignore="UseCompoundDrawables,UselessLeaf">
+
+
+                <ImageView
+                    android:id="@+id/whoopiecookie5"
+                    android:layout_width="match_parent"
+                    android:layout_height="84dp"
+                    android:layout_gravity="center_horizontal"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/whoopiecookies" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:fontFamily="serif-monospace"
+                    android:text="Whoopiecookie"
+                    android:textAlignment="center"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:fontFamily="serif-monospace"
+                    android:text="Rs.69"
+                    android:textAlignment="center"
+                    android:textColor="#4AD35D"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </GridLayout>
+
+</LinearLayout>

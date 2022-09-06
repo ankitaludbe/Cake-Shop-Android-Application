@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F49AE5"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F49AE5"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#E661D0"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@id/image"
+                android:layout_width="49dp"
+                android:layout_height="36dp"
+                android:src="@drawable/cakeshop"
+                tools:ignore="ContentDescription,MissingConstraints" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="231dp"
+                android:layout_height="31dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Sweet Cake Shop"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                tools:ignore="HardcodedText,MissingConstraints"
+                tools:layout_editor_absoluteX="56dp"
+                tools:layout_editor_absoluteY="-4dp" />
+
+            <ImageView
+                android:id="@+id/imagemenu1"
+                android:layout_width="119dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="6dp"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ic_shopping_cart"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:tint="@color/black" />
+
+        </LinearLayout>
+
+
+        <ViewFlipper
+            android:id="@+id/V_flipper1"
+            android:layout_width="wrap_content"
+            android:layout_height="201dp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="10sp"
+            android:autoStart="true"
+            android:flipInterval="2000">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/one1" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/four1" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/three1" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/five" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/six1" />
+
+        </ViewFlipper>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="8"
+            android:alignmentMode="alignMargins"
+            android:columnCount="2"
+            android:columnOrderPreserved="false"
+            android:padding="14dp"
+            android:rowCount="3">
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp">
+
+                <LinearLayout
+                    android:layout_width="122dp"
+                    android:layout_height="110dp"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="15dp"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    tools:ignore="UseCompoundDrawables,UselessLeaf,UselessParent">
+
+
+                    <ImageView
+                        android:id="@+id/cake"
+                        android:layout_width="match_parent"
+                        android:layout_height="84dp"
+                        android:layout_gravity="center_horizontal"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/cakeslide" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:fontFamily="serif-monospace"
+                        android:text="Cakes"
+                        android:textAlignment="center"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp">
+
+                <LinearLayout
+                    android:layout_width="122dp"
+                    android:layout_height="110dp"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="15dp"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    tools:ignore="UseCompoundDrawables,UselessLeaf,UselessParent">
+
+
+                    <ImageView
+                        android:id="@+id/pastry"
+                        android:layout_width="match_parent"
+                        android:layout_height="84dp"
+                        android:layout_gravity="center_horizontal"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/pastryslide" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:fontFamily="serif-monospace"
+                        android:text="Pastries"
+                        android:textAlignment="center"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp">
+
+                <LinearLayout
+                    android:layout_width="122dp"
+                    android:layout_height="110dp"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="15dp"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    tools:ignore="UseCompoundDrawables,UselessLeaf,UselessParent">
+
+
+                    <ImageView
+                        android:id="@+id/donut"
+                        android:layout_width="match_parent"
+                        android:layout_height="84dp"
+                        android:layout_gravity="center_horizontal"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/donutslide" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:fontFamily="serif-monospace"
+                        android:text="Donuts"
+                        android:textAlignment="center"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp">
+
+                <LinearLayout
+                    android:layout_width="122dp"
+                    android:layout_height="110dp"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="15dp"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    tools:ignore="UseCompoundDrawables,UselessLeaf,UselessParent">
+
+
+                    <ImageView
+                        android:id="@+id/pies"
+                        android:layout_width="match_parent"
+                        android:layout_height="84dp"
+                        android:layout_gravity="center_horizontal"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/pieslide" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:fontFamily="serif-monospace"
+                        android:text="Pies"
+                        android:textAlignment="center"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp">
+
+                <LinearLayout
+                    android:layout_width="122dp"
+                    android:layout_height="110dp"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="15dp"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    tools:ignore="UseCompoundDrawables,UselessLeaf,UselessParent">
+
+
+                    <ImageView
+                        android:id="@+id/cookies"
+                        android:layout_width="match_parent"
+                        android:layout_height="84dp"
+                        android:layout_gravity="center_horizontal"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/cookieslide" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:fontFamily="serif-monospace"
+                        android:text="Cookies"
+                        android:textAlignment="center"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp">
+
+                <LinearLayout
+                    android:layout_width="122dp"
+                    android:layout_height="110dp"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="15dp"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    tools:ignore="UseCompoundDrawables,UselessLeaf,UselessParent">
+
+
+                    <ImageView
+                        android:id="@+id/muffins"
+                        android:layout_width="match_parent"
+                        android:layout_height="84dp"
+                        android:layout_gravity="center_horizontal"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/muffinslide" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:fontFamily="serif-monospace"
+                        android:text="Muffins"
+                        android:textAlignment="center"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </GridLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+

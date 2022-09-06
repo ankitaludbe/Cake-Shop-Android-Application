@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:weightSum="10"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="653dp"
+        android:layout_weight="8"
+        android:alignmentMode="alignMargins"
+        android:columnCount="2"
+        android:columnOrderPreserved="false"
+        android:rowCount="4"
+        tools:ignore="InefficientWeight,UselessParent">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="114dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="15dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                tools:ignore="UseCompoundDrawables,UselessLeaf">
+
+
+                <ImageView
+                    android:id="@+id/blackforest2"
+                    android:layout_width="match_parent"
+                    android:layout_height="84dp"
+                    android:layout_gravity="center_horizontal"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/black_forest" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:text="BlackForest"
+                    android:textStyle="bold"
+                    android:fontFamily="serif-monospace"
+                    android:textSize="15sp"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:text="Rs.80"
+                    android:textStyle="bold"
+                    android:textColor="#4AD35D"
+                    android:fontFamily="serif-monospace"
+                    android:textSize="15sp"
+                    android:textAlignment="center"/>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="114dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="15dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                tools:ignore="UseCompoundDrawables,UselessLeaf">
+
+
+                <ImageView
+                    android:id="@+id/butterscotch2"
+                    android:layout_width="match_parent"
+                    android:layout_height="84dp"
+                    android:layout_gravity="center_horizontal"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/butterscotch" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:text="Butterscotch"
+                    android:textStyle="bold"
+                    android:fontFamily="serif-monospace"
+                    android:textSize="15sp"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:text="Rs.70"
+                    android:textStyle="bold"
+                    android:textColor="#4AD35D"
+                    android:fontFamily="serif-monospace"
+                    android:textSize="15sp"
+                    android:textAlignment="center"/>
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="114dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="15dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                tools:ignore="UseCompoundDrawables,UselessLeaf">
+
+
+                <ImageView
+                    android:id="@+id/chocolatetruffle2"
+                    android:layout_width="match_parent"
+                    android:layout_height="84dp"
+                    android:layout_gravity="center_horizontal"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/tuffle" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:text="Truffle"
+                    android:textStyle="bold"
+                    android:fontFamily="serif-monospace"
+                    android:textSize="15sp"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:text="Rs.79"
+                    android:textStyle="bold"
+                    android:textColor="#4AD35D"
+                    android:fontFamily="serif-monospace"
+                    android:textSize="15sp"
+                    android:textAlignment="center"/>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="114dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="15dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                tools:ignore="UseCompoundDrawables,UselessLeaf">
+
+
+                <ImageView
+                    android:id="@+id/chocochip2"
+                    android:layout_width="match_parent"
+                    android:layout_height="84dp"
+                    android:layout_gravity="center_horizontal"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/chocochip" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:text="Chocochip"
+                    android:textStyle="bold"
+                    android:fontFamily="serif-monospace"
+                    android:textSize="15sp"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:text="Rs.69"
+                    android:textStyle="bold"
+                    android:textColor="#4AD35D"
+                    android:fontFamily="serif-monospace"
+                    android:textSize="15sp"
+                    android:textAlignment="center"/>
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="114dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="15dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                tools:ignore="UseCompoundDrawables,UselessLeaf">
+
+
+                <ImageView
+                    android:id="@+id/coffee2"
+                    android:layout_width="match_parent"
+                    android:layout_height="84dp"
+                    android:layout_gravity="center_horizontal"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/coffee" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:text="Coffee"
+                    android:textStyle="bold"
+                    android:fontFamily="serif-monospace"
+                    android:textSize="15sp"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:text="Rs.59"
+                    android:textStyle="bold"
+                    android:textColor="#4AD35D"
+                    android:fontFamily="serif-monospace"
+                    android:textSize="15sp"
+                    android:textAlignment="center"/>
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="114dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="15dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                tools:ignore="UseCompoundDrawables,UselessLeaf">
+
+
+                <ImageView
+                    android:id="@+id/ferrero2"
+                    android:layout_width="match_parent"
+                    android:layout_height="84dp"
+                    android:layout_gravity="center_horizontal"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ferrero" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:text="Ferrero"
+                    android:textStyle="bold"
+                    android:fontFamily="serif-monospace"
+                    android:textSize="15sp"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:text="Rs.49"
+                    android:textStyle="bold"
+                    android:textColor="#4AD35D"
+                    android:fontFamily="serif-monospace"
+                    android:textSize="15sp"
+                    android:textAlignment="center"/>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="114dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="15dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                tools:ignore="UseCompoundDrawables,UselessLeaf">
+
+
+                <ImageView
+                    android:id="@+id/fruit2"
+                    android:layout_width="match_parent"
+                    android:layout_height="84dp"
+                    android:layout_gravity="center_horizontal"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/fruit" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:text="Fruit"
+                    android:textStyle="bold"
+                    android:fontFamily="serif-monospace"
+                    android:textSize="15sp"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:text="Rs.69"
+                    android:textStyle="bold"
+                    android:textColor="#4AD35D"
+                    android:fontFamily="serif-monospace"
+                    android:textSize="15sp"
+                    android:textAlignment="center"/>
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="114dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="15dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                tools:ignore="UseCompoundDrawables,UselessLeaf">
+
+
+                <ImageView
+                    android:id="@+id/kitkat2"
+                    android:layout_width="match_parent"
+                    android:layout_height="84dp"
+                    android:layout_gravity="center_horizontal"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/kitkat" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:text="Kitkat"
+                    android:textStyle="bold"
+                    android:fontFamily="serif-monospace"
+                    android:textSize="15sp"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:text="Rs.70"
+                    android:textStyle="bold"
+                    android:textColor="#4AD35D"
+                    android:fontFamily="serif-monospace"
+                    android:textSize="15sp"
+                    android:textAlignment="center"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </GridLayout>
+
+</LinearLayout>

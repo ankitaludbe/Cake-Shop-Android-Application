@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sweetcakeshop">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SweetCakeShop">
+        <activity android:name=".Cart"></activity>
+        <activity android:name=".ChunkMuffins" />
+        <activity android:name=".BlueberryMuffins" />
+        <activity android:name=".BananaMuffins" />
+        <activity android:name=".AppleMuffins" />
+        <activity android:name=".WhoopieCookies" />
+        <activity android:name=".ThumbprintCookies" />
+        <activity android:name=".SpritzCookies" />
+        <activity android:name=".MolassesCookies" />
+        <activity android:name=".GingerCookie" />
+        <activity android:name=".ChocochipCookies" />
+        <activity android:name=".CoconutPie" />
+        <activity android:name=".CherryPie" />
+        <activity android:name=".CheesecakePie" />
+        <activity android:name=".ApplePie" />
+        <activity android:name=".YeastDonut" />
+        <activity android:name=".KrimeDonut" />
+        <activity android:name=".HolesDonut" />
+        <activity android:name=".DunkinDonut" />
+        <activity android:name=".BoastanDonut" />
+        <activity android:name=".CakeDonut" />
+        <activity android:name=".KitkatPastry" />
+        <activity android:name=".FruitPastry" />
+        <activity android:name=".FerreroPastry" />
+        <activity android:name=".CoffeePastry" />
+        <activity android:name=".ChocochipPastry" />
+        <activity android:name=".TrufflePastry" />
+        <activity android:name=".ButterscotchPastry" />
+        <activity android:name=".BlackforestPastry" />
+        <activity android:name=".SwissrollCake" />
+        <activity android:name=".IcecreamCake" />
+        <activity android:name=".HeartCake" />
+        <activity android:name=".JarCake" />
+        <activity android:name=".RainbowCake" />
+        <activity android:name=".FruitCake" />
+        <activity android:name=".FondantCake" />
+        <activity android:name=".BlackforestCake" />
+        <activity android:name=".DashboardMuffins" />
+        <activity android:name=".DashboardCookies" />
+        <activity android:name=".DashboardPies" />
+        <activity android:name=".DashboardDonut" />
+        <activity android:name=".DashboardPastry" />
+        <activity android:name=".DashboardCakes" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

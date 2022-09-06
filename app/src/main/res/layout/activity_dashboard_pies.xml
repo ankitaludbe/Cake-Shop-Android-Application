@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:weightSum="10"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="653dp"
+        android:layout_weight="8"
+        android:alignmentMode="alignMargins"
+        android:columnCount="2"
+        android:columnOrderPreserved="false"
+        android:padding="14dp"
+        android:rowCount="2"
+        tools:ignore="InefficientWeight">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="136dp"
+                android:layout_height="186dp"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="15dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                tools:ignore="UseCompoundDrawables,UselessLeaf">
+
+
+                <ImageView
+                    android:id="@+id/applepie4"
+                    android:layout_width="match_parent"
+                    android:layout_height="84dp"
+                    android:layout_gravity="center_horizontal"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/applepie" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:fontFamily="serif-monospace"
+                    android:text="Applepie"
+                    android:textAlignment="center"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:fontFamily="serif-monospace"
+                    android:text="Rs.200"
+                    android:textAlignment="center"
+                    android:textColor="#4AD35D"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="130dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="15dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                tools:ignore="UseCompoundDrawables,UselessLeaf">
+
+
+                <ImageView
+                    android:id="@+id/cheesepie4"
+                    android:layout_width="match_parent"
+                    android:layout_height="84dp"
+                    android:layout_gravity="center_horizontal"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/cheesecakepie" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:fontFamily="serif-monospace"
+                    android:text="Cheesecakepie"
+                    android:textAlignment="center"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:fontFamily="serif-monospace"
+                    android:text="Rs.169"
+                    android:textAlignment="center"
+                    android:textColor="#4AD35D"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="131dp"
+                android:layout_height="175dp"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="15dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                tools:ignore="UseCompoundDrawables,UselessLeaf">
+
+
+                <ImageView
+                    android:id="@+id/cherrypie4"
+                    android:layout_width="match_parent"
+                    android:layout_height="84dp"
+                    android:layout_gravity="center_horizontal"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/cherrypie" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:fontFamily="serif-monospace"
+                    android:text="Cherrypie"
+                    android:textAlignment="center"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:fontFamily="serif-monospace"
+                    android:text="Rs.199"
+                    android:textAlignment="center"
+                    android:textColor="#4AD35D"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="124dp"
+                android:layout_height="181dp"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="15dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                tools:ignore="UseCompoundDrawables,UselessLeaf">
+
+
+                <ImageView
+                    android:id="@+id/coconutpie4"
+                    android:layout_width="match_parent"
+                    android:layout_height="84dp"
+                    android:layout_gravity="center_horizontal"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/coconutpie" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:fontFamily="serif-monospace"
+                    android:text="Coconutpie"
+                    android:textAlignment="center"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:fontFamily="serif-monospace"
+                    android:text="Rs.99"
+                    android:textAlignment="center"
+                    android:textColor="#4AD35D"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </GridLayout>
+
+
+</LinearLayout>
